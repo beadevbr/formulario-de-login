@@ -367,11 +367,11 @@ a:hover {
     width: 25px;
   }
   .bea {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 425px) {
   .create {
     height: 500px;
   }
@@ -389,23 +389,52 @@ a:hover {
     width: 25px;
   }
   .bea {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 375px) {
-  .login {
-    height: 370px;
-  }
   .bea {
     font-size: 17px;
+  }
+  input {
+    width: 200px;
+  }
+  .btn1 button {
+    margin-left: 30px;
   }
 }
 @media (max-width: 320px) {
   .create h1 {
-    font-size: 30px;
+    font-size: 23px;
+  }
+  input {
+    width: 150px;
+  }
+  .btn {
+    width: 90px;
+    font-size: 25px;
+  }
+  .checkbox {
+    font-size: 15px;
+  }
+  .btn1 button {
+    width: 80px;
+    font-size: 20px;
+    margin-left: 80px;
+  }
+  .check {
+    margin-top: -20px;
+  }
+  .select {
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 20px;
+  }
+  .line {
+    margin-top: 20px;
   }
   .bea {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
