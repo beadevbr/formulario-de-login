@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "gang";
+  src: url(../fonts/AristotelicaSmallCaps-Regular.ttf);
+}
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.login,
+.create {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+  margin: 20px;
+}
+
+.login {
+  height: 400px;
+}
+.create {
+  height: 550px;
+  color: white;
+  background: linear-gradient(to right, rgb(0, 77, 150), rgb(223, 2, 212));
+}
+.create input {
+  background-color: white;
+}
+.create h1 {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1,
+h2 {
+  font-size: 20px;
+}
+.line {
+  margin-top: 40px;
+  background-color: white;
+  width: 90%;
+  height: 2px;
+}
+h1 {
+  display: flex;
+  font-size: 50px;
+  font-family: "gang";
+  font-weight: 300;
+}
+.sign {
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  font-size: 15px;
+}
+.login1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+input {
+  height: 30px;
+  background: rgba(216, 216, 216, 0.3);
+  border: 0;
+  outline: 0;
+  width: 250px;
+  font-size: 15px;
+}
+::-ms-reveal {
+  display: none;
+}
+input[type="name"],
+[type="password"],
+[type="email"] {
+  text-indent: 15px;
+}
+.login1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  width: 90%;
+  height: 100%;
+}
+.check {
+  width: 20px;
+}
+.checkbox {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.check-title {
+  font-weight: 10;
+  padding-left: 5px;
+  color: rgb(99, 99, 99);
+  user-select: none;
+}
+.select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.check,
+.check-title {
+  cursor: pointer;
+}
+.login h1 {
+  font-weight: 100;
+}
+a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(189, 189, 189);
+  transition: 0.2s;
+}
+.btn {
+  margin-top: 20px;
+  width: 100px;
+  border: 0;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(0, 132, 255);
+  font-size: 25px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(142, 200, 255);
+  transition: 0.2s;
+}
+.icon {
+  width: 45px;
+  margin-top: 20px;
+}
+.btn1 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -150px;
+  align-items: flex-start;
+  border: 0;
+  color: rgb(56, 56, 56);
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.btn1 button {
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border: 0;
+  color: rgb(56, 56, 56);
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: rgb(197, 197, 197);
+}
+.by img {
+  width: 30px;
+  padding-left: 10px;
+  margin: auto;
+  cursor: pointer;
+}
+.by {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.bea {
+  font-size: 20px;
+  user-select: none;
+}
+
+@media (max-width: 1126px) {
+  .create h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .login,
+  .create {
+    width: 35%;
+  }
+  .login {
+    height: 450px;
+  }
+  .create {
+    height: 500px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .icon {
+    width: 50px;
+  }
+  .sign {
+    font-size: 20px;
+  }
+  input {
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+  }
+  .check {
+    width: 20px;
+  }
+  .checkbox {
+    font-size: 10px;
+  }
+  .btn {
+    width: 100px;
+    padding: 5px;
+    font-size: 25px;
+  }
+  a {
+    font-size: 10px;
+  }
+  .create h1 {
+    font-size: 45px;
+  }
+  .btn1 button {
+    width: 80px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .line {
+    margin-top: 20px;
+  }
+  .by img {
+    width: 25px;
+  }
+  .bea {
+    font-size: 20px;
+  }
+}
+@media (max-width: 880px) {
+  .icon {
+    width: 40px;
+  }
+  .create h1 {
+    font-size: 35px;
+  }
+  .btn1 button {
+    width: 80px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .line {
+    margin-top: 20px;
+  }
+  .by img {
+    width: 25px;
+  }
+  .bea {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .login {
+    height: 350px;
+  }
+  .create {
+    height: 450px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .icon {
+    width: 40px;
+  }
+  .sign {
+    font-size: 15px;
+  }
+  input {
+    width: 150px;
+    height: 25px;
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .check {
+    width: 15px;
+  }
+  .checkbox {
+    font-size: 10px;
+  }
+  .btn {
+    width: 90px;
+    padding: 4px;
+    font-size: 20px;
+  }
+  .create h1 {
+    font-size: 30px;
+  }
+  .btn1 button {
+    width: 90px;
+    padding: 4px;
+    font-size: 20px;
+    margin-left: 90px;
+  }
+  .line {
+    margin-top: 20px;
+  }
+  .by img {
+    width: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    flex-direction: column;
+  }
+  .login,
+  .create {
+    width: 70%;
+  }
+  .login {
+    height: 420px;
+  }
+  .icon {
+    width: 40px;
+  }
+  .check {
+    width: 18px;
+  }
+  input {
+    width: 200px;
+  }
+  .btn {
+    width: 100px;
+    padding: 5px;
+    font-size: 25px;
+  }
+  .checkbox {
+    font-size: 15px;
+  }
+  .create h1 {
+    font-size: 35px;
+  }
+  .btn1 button {
+    width: 80px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .line {
+    margin-top: 20px;
+  }
+  .by img {
+    width: 25px;
+  }
+  .bea {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .create {
+    height: 500px;
+  }
+  input {
+    width: 250px;
+    height: 40px;
+  }
+  .btn1 button {
+    margin-left: -15px;
+  }
+  .line {
+    margin-top: 20px;
+  }
+  .by img {
+    width: 25px;
+  }
+  .bea {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .login {
+    height: 370px;
+  }
+  .bea {
+    font-size: 17px;
+  }
+}
+@media (max-width: 320px) {
+  .create h1 {
+    font-size: 30px;
+  }
+  .bea {
+    font-size: 15px;
+  }
+}
