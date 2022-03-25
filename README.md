@@ -7,3 +7,9 @@ O desáfio foi criar um formulário de login, o foco do exercício foi o design<
 com base nas informações seguintes:<br/>
 <li>✔️ Responsivo
 <li>✔️ Design clean
+
+  # 💻 Tecnologias utilizadas
+O projeto foi desenvolvido seguindo as seguintes tecnologias:
+
+<li>HTML
+<li>CSS
