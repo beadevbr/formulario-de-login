@@ -395,7 +395,7 @@ a:hover {
 
 @media (max-width: 375px) {
   .bea {
-    font-size: 17px;
+    font-size: 14px;
   }
   input {
     width: 200px;
@@ -404,7 +404,7 @@ a:hover {
     margin-left: 30px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 370px) {
   .create h1 {
     font-size: 23px;
   }
